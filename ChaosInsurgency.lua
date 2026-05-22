@@ -36,7 +36,7 @@ function ChaosInsurgency:Init()
             "Повстанец Хаоса",
             "Уничтожьте <color=red>SCP</color>.\nПомогите персоналу <color=orange>класса-Д</color> выбраться.\nЛиквидируйте остальных вооружённых лиц.",
             "Chaos Insurgency", "CIIcon")
-        PlayerUtilities.SetVoiceChat(PlayerUtilities.CreateValueTuple("SCP", true), PlayerUtilities.CreateValueTuple("3D", true))
+        PlayerUtilities.SetVoiceChat(PlayerUtilities.CreateValueTuple("3D", true), PlayerUtilities.CreateValueTuple("Intercom", false))
     end
     self.main.playerModel = self.main.player:SpawnHumanoidModel("ply_chaosInsurgency")
     self.main.playerModel.transform.localPosition = Vector3(0, -0.83, 0)
