@@ -1,4 +1,4 @@
-# NewChaosInsurgency (v1.2)
+# NewChaosInsurgency (v1.3)
 SCP: Classified Site plugin
 
 Заменяет дефолтную роль повстанца на новую. 
